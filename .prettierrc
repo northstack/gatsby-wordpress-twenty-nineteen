@@ -1,0 +1,9 @@
+{
+	"endOfLine": "lf",
+	"singleQuote": true,
+	"tabWidth": 4,
+	"useTabs": true,
+	"trailingComma": "es5",
+	"printWidth": 120,
+	"arrowParens": "always"
+}

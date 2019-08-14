@@ -1,0 +1,59 @@
+{
+	"name": "gatsby-wordpress-twenty-nineteen",
+	"private": true,
+	"description": "A starter Gatsby site that pulls content from WordPress and mimics the Twenty Nineteen theme.",
+	"version": "0.1.0",
+	"author": "Jeff Matson <jeff.matson@pagely.com>",
+	"dependencies": {
+		"apollo-boost": "^0.4.3",
+		"apollo-client": "^2.6.3",
+		"dotenv": "^8.0.0",
+		"fs": "0.0.1-security",
+		"gatsby": "^2.8.5",
+		"gatsby-image": "^2.1.2",
+		"gatsby-plugin-manifest": "^2.1.1",
+		"gatsby-plugin-offline": "^2.1.1",
+		"gatsby-plugin-purgecss": "^4.0.0",
+		"gatsby-plugin-react-helmet": "^3.0.12",
+		"gatsby-plugin-sass": "^2.0.11",
+		"gatsby-plugin-sharp": "^2.1.3",
+		"gatsby-source-filesystem": "^2.0.38",
+		"gatsby-source-graphql": "^2.1.2",
+		"gatsby-source-wordpress": "^3.0.64",
+		"gatsby-transformer-sharp": "^2.1.21",
+		"gatsby-wordpress-inline-images": "^1.0.0",
+		"graphql": "^14.4.2",
+		"graphql-tag": "^2.10.1",
+		"isomorphic-fetch": "^2.2.1",
+		"node-sass": "^4.12.0",
+		"prop-types": "^15.7.2",
+		"react": "^16.8.6",
+		"react-apollo": "^2.5.8",
+		"react-body-classname": "^1.3.0",
+		"react-dom": "^16.8.6",
+		"react-helmet": "^5.2.1"
+	},
+	"devDependencies": {
+		"postcss-loader": "^3.0.0",
+		"prettier": "^1.18.0"
+	},
+	"keywords": [
+		"gatsby"
+	],
+	"license": "MIT",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"format": "prettier --write src/**/*.{js,jsx}",
+		"start": "npm run develop",
+		"serve": "gatsby serve",
+		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/northstack/gatsby-wordpress-twenty-nineteen"
+	},
+	"bugs": {
+		"url": "https://github.com/northstack/gatsby-wordpress-twenty-nineteen/issues"
+	}
+}
