@@ -17,11 +17,11 @@ An example site using that uses Gatsby and a headless WordPress installation to 
 
 ## To-Do
 
-[ ] General cleanup
-[ ] Better comments
-[ ] Comment replies
-[ ] Pagination
-[ ] Gravatars/user icons
+* [ ] General cleanup
+* [ ] Better comments
+* [ ] Comment replies
+* [ ] Pagination
+* [ ] Gravatars/user icons
 
 ## Requirements
 
